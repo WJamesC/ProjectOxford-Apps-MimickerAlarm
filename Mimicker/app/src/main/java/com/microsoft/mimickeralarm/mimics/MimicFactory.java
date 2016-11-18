@@ -74,6 +74,9 @@ public final class MimicFactory {
         if (alarm.isExpressYourselfEnabled()) {
             mimics.add(MimicExpressYourselfFragment.class);
         }
+        if (alarm.isObjectFinderEnabled()) {
+            mimics.add(MimicObjectFinderFragment.class);
+        }
 
         Class mimic = null;
         if (mimics.size() > 0) {

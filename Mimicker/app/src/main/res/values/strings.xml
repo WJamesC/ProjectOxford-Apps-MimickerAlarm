@@ -21,6 +21,7 @@
     <string name="mimic_twister_sharable_title">Say this fast!</string>
 
     <string name="mimic_vision_prompt">Find something %s</string>
+    <string name="mimic_vision_object_prompt">Find a %s</string>
     <string name="mimic_emotion_prompt">Make a %s face</string>
     <string name="action_feedback_UserVoice">Feedback</string>
     <string name="action_tutorial">Tutorial</string>

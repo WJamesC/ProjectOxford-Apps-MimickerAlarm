@@ -7,6 +7,14 @@
         <item>blue</item>
     </string-array>
 
+    <string-array name="vision_object_questions">
+        <item>cup</item>
+        <item>chair</item>
+        <item>keyboard</item>
+        <item>pen</item>
+        <item>car</item>
+    </string-array>
+
     <array name="red_range_lower">
         <item>313</item>
         <item>0.3</item>

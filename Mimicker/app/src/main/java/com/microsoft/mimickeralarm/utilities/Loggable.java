@@ -36,7 +36,7 @@
 package com.microsoft.mimickeralarm.utilities;
 
 import com.microsoft.projectoxford.emotion.contract.RecognizeResult;
-import com.microsoft.projectoxford.vision.contract.AnalyzeResult;
+import com.microsoft.projectoxford.vision.contract.AnalysisResult;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -73,7 +73,7 @@ public class Loggable {
         }
     }
 
-    public void putVision(AnalyzeResult result) {
+    public void putVision(AnalysisResult result) {
         try {
             Properties.put("Color Dominants", result.color.dominantColors);
             Properties.put("Color Dominant FG", result.color.dominantColorForeground);
