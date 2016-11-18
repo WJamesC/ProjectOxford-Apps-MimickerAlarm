@@ -77,25 +77,30 @@
         <item>@string/pref_mimic_color_capture_label</item>
         <item>@string/pref_mimic_express_yourself_label</item>
         <item>@string/pref_mimic_tongue_twister_label</item>
+        <item>@string/pref_mimic_object_finder_label</item>
     </string-array>
 
     <string name="pref_mimic_tongue_twister_id">tongue_twister</string>
     <string name="pref_mimic_color_capture_id">color_capture</string>
     <string name="pref_mimic_express_yourself_id">express_yourself</string>
+    <string name="pref_mimic_object_finder_id">object_finder</string>
 
     <string-array name="pref_mimic_values">
         <item>@string/pref_mimic_color_capture_id</item>
         <item>@string/pref_mimic_express_yourself_id</item>
         <item>@string/pref_mimic_tongue_twister_id</item>
+        <item>@string/pref_mimic_object_finder_id</item>
     </string-array>
 
     <string name="pref_mimic_color_capture_label">Color capture</string>
     <string name="pref_mimic_express_yourself_label">Express yourself</string>
     <string name="pref_mimic_tongue_twister_label">Tongue twister</string>
+    <string name="pref_mimic_object_finder_label">Object finder</string>
 
     <string name="pref_mimic_color_capture_summary">Match the color by snapping a pic</string>
     <string name="pref_mimic_express_yourself_summary">Mimic the emotion by taking a selfie</string>
     <string name="pref_mimic_tongue_twister_summary">Repeat the phrase by speaking out loud</string>
+    <string name="pref_mimic_object_finder_summary">Match the object by snapping a pic</string>
 
     <string name="pref_mimic_not_supported">Your phone does not support this game</string>
 

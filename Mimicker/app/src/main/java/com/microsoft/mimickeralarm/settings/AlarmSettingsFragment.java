@@ -349,6 +349,7 @@ public class AlarmSettingsFragment extends PreferenceFragmentCompat {
             mAlarm.setTongueTwisterEnabled(mMimicsPreference.isTongueTwisterEnabled());
             mAlarm.setColorCaptureEnabled(mMimicsPreference.isColorCaptureEnabled());
             mAlarm.setExpressYourselfEnabled(mMimicsPreference.isExpressYourselfEnabled());
+            mAlarm.setObjectFinderEnabled(mMimicsPreference.isObjectFinderEnabled());
         }
     }
 

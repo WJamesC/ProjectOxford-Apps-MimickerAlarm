@@ -83,6 +83,7 @@ public class Alarm {
     private boolean mTongueTwisterEnabled;
     private boolean mColorCaptureEnabled;
     private boolean mExpressYourselfEnabled;
+    private boolean mObjectFinderEnabled;
     private boolean mNew;
     private boolean mSnoozed;
     private int mSnoozeHour;
@@ -105,6 +106,7 @@ public class Alarm {
         mTongueTwisterEnabled = true;
         mColorCaptureEnabled = GeneralUtilities.deviceHasRearFacingCamera();
         mExpressYourselfEnabled = GeneralUtilities.deviceHasFrontFacingCamera();
+        mObjectFinderEnabled = GeneralUtilities.deviceHasRearFacingCamera();
         mNew = false;
         mSnoozed = false;
         mSnoozeHour = 0;
@@ -269,6 +271,13 @@ public class Alarm {
 
     public void setTongueTwisterEnabled(boolean tongueTwister) {
         mTongueTwisterEnabled = tongueTwister;
+    }
+
+    public boolean isObjectFinderEnabled() {
+        return mObjectFinderEnabled; }
+
+    public void setObjectFinderEnabled(boolean objectFinder) {
+        mObjectFinderEnabled = objectFinder;
     }
 
     public boolean isNew() {

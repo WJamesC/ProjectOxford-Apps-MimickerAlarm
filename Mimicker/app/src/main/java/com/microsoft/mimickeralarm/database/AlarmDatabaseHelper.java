@@ -52,7 +52,7 @@ import com.microsoft.mimickeralarm.database.AlarmDbSchema.AlarmTable;
  */
 public class AlarmDatabaseHelper extends SQLiteOpenHelper{
 
-    private static final int DATABASE_VERSION = 6;
+    private static final int DATABASE_VERSION = 7;
     private static final String DATABASE_NAME = "alarmDatabase.db";
 
     public AlarmDatabaseHelper(Context context) { super(context, DATABASE_NAME, null, DATABASE_VERSION); }
@@ -72,6 +72,7 @@ public class AlarmDatabaseHelper extends SQLiteOpenHelper{
                 AlarmTable.Columns.TONGUE_TWISTER + ", " +
                 AlarmTable.Columns.COLOR_CAPTURE + ", " +
                 AlarmTable.Columns.EXPRESS_YOURSELF + ", " +
+                AlarmTable.Columns.OBJECT_FINDER + ", " +
                 AlarmTable.Columns.NEW + ", " +
                 AlarmTable.Columns.SNOOZED + ", " +
                 AlarmTable.Columns.SNOOZED_HOUR + ", " +

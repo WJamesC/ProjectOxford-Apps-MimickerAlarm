@@ -54,6 +54,7 @@ public class AlarmDbSchema {
             public static final String TONGUE_TWISTER = "tongue_twister";
             public static final String COLOR_CAPTURE = "color_capture";
             public static final String EXPRESS_YOURSELF = "express_yourself";
+            public static final String OBJECT_FINDER = "object_finder";
             public static final String NEW = "new";
             public static final String SNOOZED = "snoozed";
             public static final String SNOOZED_HOUR = "snoozed_hour";

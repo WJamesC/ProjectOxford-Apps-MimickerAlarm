@@ -64,6 +64,9 @@ public class MimicsPreference extends Preference {
         if (alarm.isTongueTwisterEnabled()) {
             enabledMimics.add(context.getString(R.string.pref_mimic_tongue_twister_id));
         }
+        if (alarm.isObjectFinderEnabled()) {
+            enabledMimics.add(context.getString(R.string.pref_mimic_object_finder_id));
+        }
         return enabledMimics;
     }
 
@@ -85,6 +88,10 @@ public class MimicsPreference extends Preference {
 
     public boolean isExpressYourselfEnabled() {
         return mEnabledValues.contains(getContext().getString(R.string.pref_mimic_express_yourself_id));
+    }
+
+    public boolean isObjectFinderEnabled(){
+        return mEnabledValues.contains(getContext().getString(R.string.pref_mimic_object_finder_id));
     }
 
     public void setMimicValuesAndSummary(ArrayList<String> enabledMimics) {

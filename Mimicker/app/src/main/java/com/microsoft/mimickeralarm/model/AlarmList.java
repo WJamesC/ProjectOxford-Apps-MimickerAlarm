@@ -91,6 +91,7 @@ public class AlarmList {
         values.put(AlarmTable.Columns.TONGUE_TWISTER, alarm.isTongueTwisterEnabled());
         values.put(AlarmTable.Columns.COLOR_CAPTURE, alarm.isColorCaptureEnabled());
         values.put(AlarmTable.Columns.EXPRESS_YOURSELF, alarm.isExpressYourselfEnabled());
+        values.put(AlarmTable.Columns.OBJECT_FINDER, alarm.isObjectFinderEnabled());
         values.put(AlarmTable.Columns.NEW, alarm.isNew() ? 1 : 0);
         values.put(AlarmTable.Columns.SNOOZED, alarm.isSnoozed() ? 1 : 0);
         values.put(AlarmTable.Columns.SNOOZED_HOUR, alarm.getSnoozeHour());

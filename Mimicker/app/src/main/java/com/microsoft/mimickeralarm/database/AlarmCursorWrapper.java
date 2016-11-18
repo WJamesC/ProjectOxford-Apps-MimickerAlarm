@@ -66,6 +66,7 @@ public class AlarmCursorWrapper extends CursorWrapper {
         boolean tongueTwister = (getInt(getColumnIndex(AlarmTable.Columns.TONGUE_TWISTER)) != 0);
         boolean colorCapture = (getInt(getColumnIndex(AlarmTable.Columns.COLOR_CAPTURE)) != 0);
         boolean expressYourself = (getInt(getColumnIndex(AlarmTable.Columns.EXPRESS_YOURSELF)) != 0);
+        boolean objectFinder = (getInt(getColumnIndex(AlarmTable.Columns.OBJECT_FINDER)) != 0);
         boolean isNew = (getInt(getColumnIndex(AlarmTable.Columns.NEW)) != 0);
         boolean isSnoozed = (getInt(getColumnIndex(AlarmTable.Columns.SNOOZED)) != 0);
         int snoozedHour = getInt(getColumnIndex(AlarmTable.Columns.SNOOZED_HOUR));
@@ -85,6 +86,7 @@ public class AlarmCursorWrapper extends CursorWrapper {
         alarm.setTongueTwisterEnabled(tongueTwister);
         alarm.setColorCaptureEnabled(colorCapture);
         alarm.setExpressYourselfEnabled(expressYourself);
+        alarm.setObjectFinderEnabled(objectFinder);
         alarm.setNew(isNew);
         alarm.setSnoozed(isSnoozed);
         alarm.setSnoozeHour(snoozedHour);
